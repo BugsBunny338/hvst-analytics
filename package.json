@@ -5,6 +5,7 @@
   "dependencies": {
     "@gooddata/react-components": "^6.0.0",
     "@material-ui/core": "^3.3.2",
+    "@types/styled-jsx": "^2.2.7",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.6",
