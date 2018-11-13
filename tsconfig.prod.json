@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "rules": {
+    
+    "no-console": true,
+    "no-debug": true
+
+  },
+  "jsRules": {
+    "no-console": true //Disable for javascript
+  }
+}

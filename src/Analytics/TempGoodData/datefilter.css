@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* allow vendor prefixes and disable max length */
+/* stylelint-disable max-line-length */
+/* stylelint-enable max-line-length */
+/* allow vendor prefixes and disable max length */
+/* stylelint-disable value-no-vendor-prefix, declaration-block-no-duplicate-properties, max-line-length */
+/* ==========================================================================
+   Variables, mixins, silent classes etc.
+   ========================================================================== */
+/* ==========================================================================
+   Datepicker
+   ========================================================================== */
+.gd-datepicker {
+  position: relative;
+}
+.gd-datepicker .input-text {
+  padding-left: 36px;
+  position: relative;
+  -moz-transition-property: "padding-left";
+  -webkit-transition-property: "padding-left";
+  transition-property: "padding-left";
+  -moz-transition-duration: 0;
+  -webkit-transition-duration: 0;
+  transition-duration: 0;
+}
+.gd-datepicker.small .input-text {
+  padding-left: 30px;
+}
+.gd-datepicker.small .gd-datepicker-icon {
+  left: 8px;
+  font-size: 15px;
+  line-height: 28px;
+}
+.gd-datepicker.gd-datepicker-focused .input-text,
+.gd-datepicker.gd-datepicker-focused .gd-datepicker-icon {
+  z-index: 11;
+}
+
+.gd-datepicker-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #14b2e2;
+  -moz-transition-property: "color";
+  -webkit-transition-property: "color";
+  transition-property: "color";
+  -moz-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.gd-datepicker-OverlayWrapper {
+  z-index: 10;
+}
+
+.gd-datepicker-OverlayWrapper-xx-tl,
+.gd-datepicker-OverlayWrapper-xx-bl {
+  position: relative;
+}
+.gd-datepicker-OverlayWrapper-xx-tl .gd-datepicker-picker,
+.gd-datepicker-OverlayWrapper-xx-bl .gd-datepicker-picker {
+  left: 0;
+}
+
+.gd-datepicker-OverlayWrapper-xx-tr,
+.gd-datepicker-OverlayWrapper-xx-br {
+  position: relative;
+}
+.gd-datepicker-OverlayWrapper-xx-tr .gd-datepicker-picker,
+.gd-datepicker-OverlayWrapper-xx-br .gd-datepicker-picker {
+  right: 0;
+  left: auto;
+}
+
+.gd-datepicker-OverlayWrapper-bl-xx,
+.gd-datepicker-OverlayWrapper-br-xx {
+  position: relative;
+}
+.gd-datepicker-OverlayWrapper-bl-xx .gd-datepicker-picker,
+.gd-datepicker-OverlayWrapper-br-xx .gd-datepicker-picker {
+  top: 0;
+}
+
+.gd-datepicker-OverlayWrapper-tl-xx,
+.gd-datepicker-OverlayWrapper-tr-xx {
+  position: static;
+}
+.gd-datepicker-OverlayWrapper-tl-xx .gd-datepicker-picker,
+.gd-datepicker-OverlayWrapper-tr-xx .gd-datepicker-picker {
+  top: auto;
+  bottom: 100%;
+  box-shadow: 0 0 5px 0 rgba(31, 53, 74, 0.15);
+}
+
+.gd-datepicker-picker {
+  position: absolute;
+  padding: 20px 15px 15px;
+  text-align: left;
+  background: white;
+  user-select: none;
+  box-shadow: 0 2px 5px 0 rgba(31, 53, 74, 0.15);
+}
+.gd-datepicker-picker .DayPicker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  user-select: none;
+}
+.gd-datepicker-picker .DayPicker-Month {
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+  user-select: none;
+}
+.gd-datepicker-picker .DayPicker-NavBar {
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 0 0.5rem;
+}
+.gd-datepicker-picker .DayPicker-NavButton {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+.gd-datepicker-picker .DayPicker-NavButton--prev,
+.gd-datepicker-picker .DayPicker-NavButton--next {
+  position: absolute;
+  top: -0.25em;
+  box-sizing: content-box;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+}
+.gd-datepicker-picker .DayPicker-NavButton--prev::before,
+.gd-datepicker-picker .DayPicker-NavButton--next::before {
+  display: block;
+  padding-top: 0.15em;
+  font-family: Indigo;
+  font-size: 18px;
+  color: #14b2e2;
+}
+.gd-datepicker-picker .DayPicker-NavButton--prev:hover::before,
+.gd-datepicker-picker .DayPicker-NavButton--next:hover::before {
+  color: #94a1ad;
+}
+.gd-datepicker-picker .DayPicker-NavButton--prev {
+  left: 0.15em;
+}
+.gd-datepicker-picker .DayPicker-NavButton--prev::before {
+  content: "";
+}
+.gd-datepicker-picker .DayPicker-NavButton--next {
+  right: 0.35em;
+}
+.gd-datepicker-picker .DayPicker-NavButton--next::before {
+  content: "";
+}
+.gd-datepicker-picker .DayPicker-NavButton--next:hover,
+.gd-datepicker-picker .DayPicker-NavButton--prev:hover {
+  color: #14b2e2;
+  cursor: pointer;
+}
+.gd-datepicker-picker .DayPicker-Caption {
+  display: table-caption;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  margin-bottom: 1em;
+  font-family: Avenir;
+  font-size: 17px;
+  text-align: center;
+  color: #000;
+  cursor: default;
+}
+.gd-datepicker-picker .DayPicker-Weekdays {
+  display: table-header-group;
+}
+.gd-datepicker-picker .DayPicker-WeekdaysRow {
+  display: table-row;
+}
+.gd-datepicker-picker .DayPicker-Weekday {
+  display: table-cell;
+  padding-bottom: 0.5em;
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #94a1ad;
+  cursor: help;
+}
+.gd-datepicker-picker .DayPicker-Weekday abbr {
+  text-decoration: none;
+  border-bottom: none;
+}
+.gd-datepicker-picker .DayPicker-Body {
+  display: table-row-group;
+}
+.gd-datepicker-picker .DayPicker-Week {
+  display: table-row;
+}
+.gd-datepicker-picker .DayPicker-Day {
+  display: table-cell;
+  padding: 0.3125em 0.55em;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #464e56;
+}
+.gd-datepicker-picker .DayPicker-Day:hover {
+  background: #ebeff4;
+  cursor: pointer;
+}
+.gd-datepicker-picker .DayPicker--interactionDisabled .DayPicker-Day {
+  cursor: default;
+}
+.gd-datepicker-picker .DayPicker-Day--disabled {
+  font-weight: 400;
+  color: #b0beca;
+  cursor: default;
+}
+.gd-datepicker-picker .DayPicker-Day--outside {
+  font-weight: 400;
+  color: #b0beca;
+  cursor: default;
+}
+.gd-datepicker-picker .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  color: #fff;
+  background: #14b2e2;
+}
+
+.datefilter {
+  padding: 11px;
+}
+
+.datefilter-field {
+  display: inline-block;
+  margin-right: 20px;
+}
+.datefilter-field:last-child {
+  margin-right: 0;
+}
+.datefilter-field .gd-datepicker.small .input-text {
+  padding: 5px 10px;
+  border: 1px solid #EFEFF4;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px 0 rgba(31, 53, 74, 0.15);
+  outline: none;
+  color: #464E56;
+  font-size: 13px;
+  line-height: 16px;
+  background-color: white;
+  width: auto;
+}
+.datefilter-field .gd-datepicker.small .input-text:hover, .datefilter-field .gd-datepicker.small .input-text:focus, .datefilter-field .gd-datepicker.small .input-text:active {
+  border: 1px solid #3393D1;
+}
+
+.datefilter-field-title {
+  font-size: 10px;
+  color: #6B6B6B;
+  text-transform: uppercase;
+}
+
+.gd-datepicker-icon {
+  display: none;
+}
+
+.DayPicker-Caption > div {
+  font-weight: normal;
+}
+
+.DayPicker-wrapper {
+  padding: 0;
+}
+
+.DayPicker-Month {
+  margin: 0;
+}
+
+.DayPicker-NavButton--prev,
+.DayPicker-NavButton--next {
+  background-image: none;
+}
+
+.gd-datepicker-picker .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  background-color: #3393D1;
+}
+
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside),
+.DayPicker:not(.DayPicker--interactionDisabled) .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+  border-radius: 0;
+}
+
+.DayPicker:not(.DayPicker--interactionDisabled) .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+  background-color: rgba(51, 147, 209, 0.2);
+}

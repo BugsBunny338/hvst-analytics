@@ -1,0 +1,1061 @@
+{
+  "projectId": "r7bq1uyjqe2trz9itwhu2dr3kt5elrhq",
+  "measures": {
+    "# Page Visits": {
+      "identifier": "abDfJxzFeenw",
+      "tags": ""
+    },
+    "# Post Impressions": {
+      "identifier": "aba1JfJggTlf",
+      "tags": ""
+    },
+    "# Post Opens": {
+      "identifier": "aa9fKcPdeDjE",
+      "tags": ""
+    },
+    "# Posts": {
+      "identifier": "aaK1XHpBdq5C",
+      "tags": ""
+    },
+    "Page Visits": {
+      "identifier": "fact.pagefact.pagevisits",
+      "tags": ""
+    },
+    "Post CTR": {
+      "identifier": "adrfF34Pclbi",
+      "tags": ""
+    },
+    "Post Impressions": {
+      "identifier": "fact.postfact.postimpressions",
+      "tags": ""
+    },
+    "Post Opens": {
+      "identifier": "fact.postfact.postclicks",
+      "tags": ""
+    }
+  },
+  "attributes": {
+    "Audience City": {
+      "identifier": "attr.audiencegeoanddemographics.audiencecity",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.audiencegeo.audiencecity",
+        "tags": ""
+      },
+      "displayForms": {
+        "Audience City": {
+          "dfIdentifier": "label.audiencegeo.audiencecity",
+          "dfTags": ""
+        }
+      }
+    },
+    "Audience Country": {
+      "identifier": "attr.audiencegeoanddemographics.audiencecountry",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.audiencegeoanddemographics.audiencecountry",
+        "tags": ""
+      },
+      "displayForms": {
+        "Audience Country": {
+          "dfIdentifier": "label.audiencegeoanddemographics.audiencecountry",
+          "dfTags": ""
+        }
+      }
+    },
+    "Audience Demographics Firm": {
+      "identifier": "attr.audiencegeoanddemographics.audiencedemographicfirm",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.audiencegeoanddemographics.audiencedemographicfirm",
+        "tags": ""
+      },
+      "displayForms": {
+        "Audience Demographics Firm": {
+          "dfIdentifier": "label.audiencegeoanddemographics.audiencedemographicfirm",
+          "dfTags": ""
+        }
+      }
+    },
+    "Audience Demographics Primary": {
+      "identifier": "attr.audiencegeoanddemographics.audiencedemographicsprimary",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.audiencegeoanddemographics.audiencedemographicsprimary",
+        "tags": ""
+      },
+      "displayForms": {
+        "Audience Demographics Primary": {
+          "dfIdentifier": "label.audiencegeoanddemographics.audiencedemographicsprimary",
+          "dfTags": ""
+        }
+      }
+    },
+    "Audience Demographics Secondary": {
+      "identifier": "attr.audiencegeoanddemographics.audiencedemographicssecondary",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.audiencegeoanddemographics.audiencedemographicssecondary",
+        "tags": ""
+      },
+      "displayForms": {
+        "Audience Demographics Secondary": {
+          "dfIdentifier": "label.audiencegeoanddemographics.audiencedemographicssecondary",
+          "dfTags": ""
+        }
+      }
+    },
+    "Audience Demographics Terciary": {
+      "identifier": "attr.audiencegeoanddemographics.audiencedemographicsterciary",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.audiencegeoanddemographics.audiencedemographicsterciary",
+        "tags": ""
+      },
+      "displayForms": {
+        "Audience Demographics Terciary": {
+          "dfIdentifier": "label.audiencegeoanddemographics.audiencedemographicsterciary",
+          "dfTags": ""
+        }
+      }
+    },
+    "Audience ID": {
+      "identifier": "attr.audiencegeoanddemographics.id",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.audiencegeo.ip",
+        "tags": ""
+      },
+      "displayForms": {
+        "Audience ID": {
+          "dfIdentifier": "label.audiencegeo.ip",
+          "dfTags": ""
+        }
+      }
+    },
+    "Audience State": {
+      "identifier": "attr.audiencegeoanddemographics.audiencestate",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.audiencegeoanddemographics.audiencestate",
+        "tags": ""
+      },
+      "displayForms": {
+        "Audience State": {
+          "dfIdentifier": "label.audiencegeoanddemographics.audiencestate",
+          "dfTags": ""
+        }
+      }
+    },
+    "Page ID": {
+      "identifier": "attr.page.page_id",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.page.page_id",
+        "tags": ""
+      },
+      "displayForms": {
+        "Page ID": {
+          "dfIdentifier": "label.page.page_id",
+          "dfTags": ""
+        }
+      }
+    },
+    "Page Name": {
+      "identifier": "attr.page.page_name",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.page.page_name",
+        "tags": ""
+      },
+      "displayForms": {
+        "Page Name": {
+          "dfIdentifier": "label.page.page_name",
+          "dfTags": ""
+        }
+      }
+    },
+    "Post Author": {
+      "identifier": "attr.post.postauthor",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.post.postauthor",
+        "tags": ""
+      },
+      "displayForms": {
+        "Post Author": {
+          "dfIdentifier": "label.post.postauthor",
+          "dfTags": ""
+        }
+      }
+    },
+    "Post Author ID": {
+      "identifier": "attr.post.postauthorid",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.post.postauthorid",
+        "tags": ""
+      },
+      "displayForms": {
+        "Post Author ID": {
+          "dfIdentifier": "label.post.postauthorid",
+          "dfTags": ""
+        }
+      }
+    },
+    "Post Author Type": {
+      "identifier": "attr.post.postauthortype",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.post.postauthortype",
+        "tags": ""
+      },
+      "displayForms": {
+        "Post Author Type": {
+          "dfIdentifier": "label.post.postauthortype",
+          "dfTags": ""
+        }
+      }
+    },
+    "Post ID": {
+      "identifier": "attr.post.postid",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.post.postid",
+        "tags": ""
+      },
+      "displayForms": {
+        "Post ID": {
+          "dfIdentifier": "label.post.postid",
+          "dfTags": ""
+        }
+      }
+    },
+    "Post Open Traffic Source": {
+      "identifier": "attr.postfact.postopentrafficsource",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.postfact.postopentrafficsource",
+        "tags": ""
+      },
+      "displayForms": {
+        "Post Open Traffic Source": {
+          "dfIdentifier": "label.postfact.postopentrafficsource",
+          "dfTags": ""
+        }
+      }
+    },
+    "Post Open Traffic Source ID": {
+      "identifier": "attr.postfact.postopentrafficsourceid",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.postfact.postopentrafficsourceid",
+        "tags": ""
+      },
+      "displayForms": {
+        "Post Open Traffic Source ID": {
+          "dfIdentifier": "label.postfact.postopentrafficsourceid",
+          "dfTags": ""
+        }
+      }
+    },
+    "Post Opens Traffic Source Category": {
+      "identifier": "attr.postfact.postopenstrafficsourcecategory",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.postfact.postopenstrafficsourcecategory",
+        "tags": ""
+      },
+      "displayForms": {
+        "Post Opens Traffic Source Category": {
+          "dfIdentifier": "label.postfact.postopenstrafficsourcecategory",
+          "dfTags": ""
+        }
+      }
+    },
+    "Post Title": {
+      "identifier": "attr.post.posttitle",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.post.posttitle",
+        "tags": ""
+      },
+      "displayForms": {
+        "Post Title": {
+          "dfIdentifier": "label.post.posttitle",
+          "dfTags": ""
+        }
+      }
+    },
+    "Tag": {
+      "identifier": "attr.tag.tag",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.tag.tag",
+        "tags": ""
+      },
+      "displayForms": {
+        "Tag": {
+          "dfIdentifier": "label.tag.tag",
+          "dfTags": ""
+        }
+      }
+    },
+    "Tag Category": {
+      "identifier": "attr.tag.tagcategory",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.tag.tagcategory",
+        "tags": ""
+      },
+      "displayForms": {
+        "Tag Category": {
+          "dfIdentifier": "label.tag.tagcategory",
+          "dfTags": ""
+        }
+      }
+    },
+    "Tag Class": {
+      "identifier": "attr.tag.tagclass",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.tag.tagclass",
+        "tags": ""
+      },
+      "displayForms": {
+        "Tag Class": {
+          "dfIdentifier": "label.tag.tagclass",
+          "dfTags": ""
+        }
+      }
+    },
+    "Tag ID": {
+      "identifier": "attr.tag.tagid",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.tag.tagid",
+        "tags": ""
+      },
+      "displayForms": {
+        "Tag ID": {
+          "dfIdentifier": "label.tag.tagid",
+          "dfTags": ""
+        }
+      }
+    },
+    "Tag Type": {
+      "identifier": "attr.tag.tagtype",
+      "tags": "",
+      "defaultDisplayForm": {
+        "identifier": "label.tag.tagtype",
+        "tags": ""
+      },
+      "displayForms": {
+        "Tag Type": {
+          "dfIdentifier": "label.tag.tagtype",
+          "dfTags": ""
+        }
+      }
+    }
+  },
+  "visualizations": {
+    "# Post Impressions (ColumnChart)": {
+      "identifier": "aarabodYdMhq",
+      "tags": ""
+    },
+    "12 Months Post Impressions Stacked By Author": {
+      "identifier": "acjabr3ZfGHG",
+      "tags": ""
+    },
+    "Page Visits POP": {
+      "identifier": "adXIGPxweK2D",
+      "tags": ""
+    }
+  },
+  "dateDataSets": {
+    "Date (Date)": {
+      "identifier": "date.dataset.dt",
+      "tags": "",
+      "attributes": {
+        "Year (Date)": {
+          "identifier": "date.year",
+          "tags": "date year",
+          "defaultDisplayForm": {
+            "identifier": "date.aag81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Year (Date)": {
+              "identifier": "date.aag81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Quarter (Date)": {
+          "identifier": "date.quarter.in.year",
+          "tags": "date quarter year",
+          "defaultDisplayForm": {
+            "identifier": "date.aam81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "default (Date)": {
+              "identifier": "date.aam81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Sun-Sat)/Year (Date)": {
+          "identifier": "date.week",
+          "tags": "date week",
+          "defaultDisplayForm": {
+            "identifier": "date.aaA81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Week #/Year (W1/2010) (Date)": {
+              "identifier": "date.aaA81lMifn6q",
+              "tags": ""
+            },
+            "Week Starting (Date)": {
+              "identifier": "date.aaw81lMifn6q",
+              "tags": ""
+            },
+            "From - To (Date)": {
+              "identifier": "date.aau81lMifn6q",
+              "tags": ""
+            },
+            "Week #/Year (Cont.) (Date)": {
+              "identifier": "date.aay81lMifn6q",
+              "tags": ""
+            },
+            "Wk/Qtr/Year (Cont.) (Date)": {
+              "identifier": "date.aaC81lMifn6q",
+              "tags": ""
+            },
+            "Wk/Qtr/Year (Date)": {
+              "identifier": "date.aas81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Sun-Sat) (Date)": {
+          "identifier": "date.week.in.year",
+          "tags": "date week year",
+          "defaultDisplayForm": {
+            "identifier": "date.aaI81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number US (Date)": {
+              "identifier": "date.aaI81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Sun-Sat) of Qtr (Date)": {
+          "identifier": "date.week.in.quarter",
+          "tags": "date quarter week",
+          "defaultDisplayForm": {
+            "identifier": "date.aaO81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number US (Date)": {
+              "identifier": "date.aaO81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Mon-Sun)/Year (Date)": {
+          "identifier": "date.euweek",
+          "tags": "date eu week",
+          "defaultDisplayForm": {
+            "identifier": "date.aa281lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Week #/Year (W1/2010) (Date)": {
+              "identifier": "date.aa281lMifn6q",
+              "tags": ""
+            },
+            "Week Starting (Date)": {
+              "identifier": "date.aaY81lMifn6q",
+              "tags": ""
+            },
+            "From - To (Date)": {
+              "identifier": "date.aaW81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Mon-Sun) (Date)": {
+          "identifier": "date.euweek.in.year",
+          "tags": "date eu week year",
+          "defaultDisplayForm": {
+            "identifier": "date.aba81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number EU (Date)": {
+              "identifier": "date.aba81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Mon-Sun) of Qtr (Date)": {
+          "identifier": "date.euweek.in.quarter",
+          "tags": "date eu quarter week",
+          "defaultDisplayForm": {
+            "identifier": "date.abg81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number EU (Date)": {
+              "identifier": "date.abg81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Month (Date)": {
+          "identifier": "date.month.in.year",
+          "tags": "date month year",
+          "defaultDisplayForm": {
+            "identifier": "date.abm81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Short (Jan) (Date)": {
+              "identifier": "date.abm81lMifn6q",
+              "tags": ""
+            },
+            "Long (January) (Date)": {
+              "identifier": "date.abs81lMifn6q",
+              "tags": ""
+            },
+            "Number (M1) (Date)": {
+              "identifier": "date.abq81lMifn6q",
+              "tags": ""
+            },
+            "M/Q (M1/Q1) (Date)": {
+              "identifier": "date.abo81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Month of Quarter (Date)": {
+          "identifier": "date.month.in.quarter",
+          "tags": "date month quarter",
+          "defaultDisplayForm": {
+            "identifier": "date.aby81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number (Date)": {
+              "identifier": "date.aby81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Year (Date)": {
+          "identifier": "date.day.in.year",
+          "tags": "date day year",
+          "defaultDisplayForm": {
+            "identifier": "date.abE81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "default (Date)": {
+              "identifier": "date.abE81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Week (Sun-Sat) (Date)": {
+          "identifier": "date.day.in.week",
+          "tags": "date day week",
+          "defaultDisplayForm": {
+            "identifier": "date.abK81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Short (Sun) (Date)": {
+              "identifier": "date.abK81lMifn6q",
+              "tags": ""
+            },
+            "Long (Sunday) (Date)": {
+              "identifier": "date.abO81lMifn6q",
+              "tags": ""
+            },
+            "Number (1=Sunday) (Date)": {
+              "identifier": "date.abM81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Week (Mon-Sun) (Date)": {
+          "identifier": "date.day.in.euweek",
+          "tags": "date day eu week",
+          "defaultDisplayForm": {
+            "identifier": "date.abU81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Short (Mon) (Date)": {
+              "identifier": "date.abU81lMifn6q",
+              "tags": ""
+            },
+            "Long (Monday) (Date)": {
+              "identifier": "date.abY81lMifn6q",
+              "tags": ""
+            },
+            "Number (1=Monday) (Date)": {
+              "identifier": "date.abW81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Quarter (Date)": {
+          "identifier": "date.day.in.quarter",
+          "tags": "date day quarter",
+          "defaultDisplayForm": {
+            "identifier": "date.ab481lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "default (Date)": {
+              "identifier": "date.ab481lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Month (Date)": {
+          "identifier": "date.day.in.month",
+          "tags": "date day month",
+          "defaultDisplayForm": {
+            "identifier": "date.aca81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "default (Date)": {
+              "identifier": "date.aca81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Quarter/Year (Date)": {
+          "identifier": "date.quarter",
+          "tags": "date quarter",
+          "defaultDisplayForm": {
+            "identifier": "date.aci81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "US Short (Date)": {
+              "identifier": "date.aci81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Month/Year (Date)": {
+          "identifier": "date.month",
+          "tags": "date month",
+          "defaultDisplayForm": {
+            "identifier": "date.act81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Short (Jan 2010) (Date)": {
+              "identifier": "date.act81lMifn6q",
+              "tags": ""
+            },
+            "Long (January 2010) (Date)": {
+              "identifier": "date.acx81lMifn6q",
+              "tags": ""
+            },
+            "Number (1/2010) (Date)": {
+              "identifier": "date.acv81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Date (Date)": {
+          "identifier": "date.date",
+          "tags": "date",
+          "defaultDisplayForm": {
+            "identifier": "date.date.mmddyyyy",
+            "tags": ""
+          },
+          "displayForms": {
+            "mm/dd/yyyy (Date)": {
+              "identifier": "date.date.mmddyyyy",
+              "tags": ""
+            },
+            "yyyy-mm-dd (Date)": {
+              "identifier": "date.date.yyyymmdd",
+              "tags": ""
+            },
+            "m/d/yy (no leading zeroes) (Date)": {
+              "identifier": "date.date.mdyy",
+              "tags": ""
+            },
+            "Long (Mon, Jan 1, 2010) (Date)": {
+              "identifier": "date.date.long",
+              "tags": ""
+            },
+            "dd/mm/yyyy (Date)": {
+              "identifier": "date.date.ddmmyyyy",
+              "tags": ""
+            },
+            "dd-mm-yyyy (Date)": {
+              "identifier": "date.date.eddmmyyyy",
+              "tags": ""
+            }
+          }
+        }
+      }
+    },
+    "Date (Post Published Date)": {
+      "identifier": "postpublisheddate.dataset.dt",
+      "tags": "",
+      "attributes": {
+        "Year (Post Published Date)": {
+          "identifier": "postpublisheddate.year",
+          "tags": "date year",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aag81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Year (Post Published Date)": {
+              "identifier": "postpublisheddate.aag81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Quarter (Post Published Date)": {
+          "identifier": "postpublisheddate.quarter.in.year",
+          "tags": "date quarter year",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aam81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "default (Post Published Date)": {
+              "identifier": "postpublisheddate.aam81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Sun-Sat)/Year (Post Published Date)": {
+          "identifier": "postpublisheddate.week",
+          "tags": "date week",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aaA81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Week #/Year (W1/2010) (Post Published Date)": {
+              "identifier": "postpublisheddate.aaA81lMifn6q",
+              "tags": ""
+            },
+            "Week Starting (Post Published Date)": {
+              "identifier": "postpublisheddate.aaw81lMifn6q",
+              "tags": ""
+            },
+            "From - To (Post Published Date)": {
+              "identifier": "postpublisheddate.aau81lMifn6q",
+              "tags": ""
+            },
+            "Week #/Year (Cont.) (Post Published Date)": {
+              "identifier": "postpublisheddate.aay81lMifn6q",
+              "tags": ""
+            },
+            "Wk/Qtr/Year (Cont.) (Post Published Date)": {
+              "identifier": "postpublisheddate.aaC81lMifn6q",
+              "tags": ""
+            },
+            "Wk/Qtr/Year (Post Published Date)": {
+              "identifier": "postpublisheddate.aas81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Sun-Sat) (Post Published Date)": {
+          "identifier": "postpublisheddate.week.in.year",
+          "tags": "date week year",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aaI81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number US (Post Published Date)": {
+              "identifier": "postpublisheddate.aaI81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Sun-Sat) of Qtr (Post Published Date)": {
+          "identifier": "postpublisheddate.week.in.quarter",
+          "tags": "date quarter week",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aaO81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number US (Post Published Date)": {
+              "identifier": "postpublisheddate.aaO81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Mon-Sun)/Year (Post Published Date)": {
+          "identifier": "postpublisheddate.euweek",
+          "tags": "date eu week",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aa281lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Week #/Year (W1/2010) (Post Published Date)": {
+              "identifier": "postpublisheddate.aa281lMifn6q",
+              "tags": ""
+            },
+            "Week Starting (Post Published Date)": {
+              "identifier": "postpublisheddate.aaY81lMifn6q",
+              "tags": ""
+            },
+            "From - To (Post Published Date)": {
+              "identifier": "postpublisheddate.aaW81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Mon-Sun) (Post Published Date)": {
+          "identifier": "postpublisheddate.euweek.in.year",
+          "tags": "date eu week year",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aba81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number EU (Post Published Date)": {
+              "identifier": "postpublisheddate.aba81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Week (Mon-Sun) of Qtr (Post Published Date)": {
+          "identifier": "postpublisheddate.euweek.in.quarter",
+          "tags": "date eu quarter week",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.abg81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number EU (Post Published Date)": {
+              "identifier": "postpublisheddate.abg81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Month (Post Published Date)": {
+          "identifier": "postpublisheddate.month.in.year",
+          "tags": "date month year",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.abm81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Short (Jan) (Post Published Date)": {
+              "identifier": "postpublisheddate.abm81lMifn6q",
+              "tags": ""
+            },
+            "Long (January) (Post Published Date)": {
+              "identifier": "postpublisheddate.abs81lMifn6q",
+              "tags": ""
+            },
+            "Number (M1) (Post Published Date)": {
+              "identifier": "postpublisheddate.abq81lMifn6q",
+              "tags": ""
+            },
+            "M/Q (M1/Q1) (Post Published Date)": {
+              "identifier": "postpublisheddate.abo81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Month of Quarter (Post Published Date)": {
+          "identifier": "postpublisheddate.month.in.quarter",
+          "tags": "date month quarter",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aby81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Number (Post Published Date)": {
+              "identifier": "postpublisheddate.aby81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Year (Post Published Date)": {
+          "identifier": "postpublisheddate.day.in.year",
+          "tags": "date day year",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.abE81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "default (Post Published Date)": {
+              "identifier": "postpublisheddate.abE81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Week (Sun-Sat) (Post Published Date)": {
+          "identifier": "postpublisheddate.day.in.week",
+          "tags": "date day week",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.abK81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Short (Sun) (Post Published Date)": {
+              "identifier": "postpublisheddate.abK81lMifn6q",
+              "tags": ""
+            },
+            "Long (Sunday) (Post Published Date)": {
+              "identifier": "postpublisheddate.abO81lMifn6q",
+              "tags": ""
+            },
+            "Number (1=Sunday) (Post Published Date)": {
+              "identifier": "postpublisheddate.abM81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Week (Mon-Sun) (Post Published Date)": {
+          "identifier": "postpublisheddate.day.in.euweek",
+          "tags": "date day eu week",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.abU81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Short (Mon) (Post Published Date)": {
+              "identifier": "postpublisheddate.abU81lMifn6q",
+              "tags": ""
+            },
+            "Long (Monday) (Post Published Date)": {
+              "identifier": "postpublisheddate.abY81lMifn6q",
+              "tags": ""
+            },
+            "Number (1=Monday) (Post Published Date)": {
+              "identifier": "postpublisheddate.abW81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Quarter (Post Published Date)": {
+          "identifier": "postpublisheddate.day.in.quarter",
+          "tags": "date day quarter",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.ab481lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "default (Post Published Date)": {
+              "identifier": "postpublisheddate.ab481lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Day of Month (Post Published Date)": {
+          "identifier": "postpublisheddate.day.in.month",
+          "tags": "date day month",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aca81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "default (Post Published Date)": {
+              "identifier": "postpublisheddate.aca81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Quarter/Year (Post Published Date)": {
+          "identifier": "postpublisheddate.quarter",
+          "tags": "date quarter",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.aci81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "US Short (Post Published Date)": {
+              "identifier": "postpublisheddate.aci81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Month/Year (Post Published Date)": {
+          "identifier": "postpublisheddate.month",
+          "tags": "date month",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.act81lMifn6q",
+            "tags": ""
+          },
+          "displayForms": {
+            "Short (Jan 2010) (Post Published Date)": {
+              "identifier": "postpublisheddate.act81lMifn6q",
+              "tags": ""
+            },
+            "Long (January 2010) (Post Published Date)": {
+              "identifier": "postpublisheddate.acx81lMifn6q",
+              "tags": ""
+            },
+            "Number (1/2010) (Post Published Date)": {
+              "identifier": "postpublisheddate.acv81lMifn6q",
+              "tags": ""
+            }
+          }
+        },
+        "Date (Post Published Date)": {
+          "identifier": "postpublisheddate.date",
+          "tags": "date",
+          "defaultDisplayForm": {
+            "identifier": "postpublisheddate.date.mmddyyyy",
+            "tags": ""
+          },
+          "displayForms": {
+            "mm/dd/yyyy (Post Published Date)": {
+              "identifier": "postpublisheddate.date.mmddyyyy",
+              "tags": ""
+            },
+            "yyyy-mm-dd (Post Published Date)": {
+              "identifier": "postpublisheddate.date.yyyymmdd",
+              "tags": ""
+            },
+            "m/d/yy (no leading zeroes) (Post Published Date)": {
+              "identifier": "postpublisheddate.date.mdyy",
+              "tags": ""
+            },
+            "Long (Mon, Jan 1, 2010) (Post Published Date)": {
+              "identifier": "postpublisheddate.date.long",
+              "tags": ""
+            },
+            "dd/mm/yyyy (Post Published Date)": {
+              "identifier": "postpublisheddate.date.ddmmyyyy",
+              "tags": ""
+            },
+            "dd-mm-yyyy (Post Published Date)": {
+              "identifier": "postpublisheddate.date.eddmmyyyy",
+              "tags": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}
