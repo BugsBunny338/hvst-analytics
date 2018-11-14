@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Component } from 'react'
 
-import { Headline, LineChart } from '@gooddata/react-components';
+import { Headline, LineChart, Table } from '@gooddata/react-components';
 import '@gooddata/react-components/styles/css/main.css';
 
 const PROJECT_ID = 'a8ujccqht6hb5l9f8rfbag2277h4yo0o';
@@ -15,6 +15,30 @@ export default class PageStatistics extends Component {
           measureDefinition: {
             item: {
               identifier: 'aazQ76XjeeSD'
+            }
+          }
+        }
+      }
+    }
+    const percVisitsByCountry = {
+      measure: {
+        localIdentifier: 'percVisitsByCountry',
+        definition: {
+          measureDefinition: {
+            item: {
+              identifier: 'ac8oLvQQeNar'
+            }
+          }
+        }
+      }
+    }
+    const percVisitsByState = {
+      measure: {
+        localIdentifier: 'percVisitsByState',
+        definition: {
+          measureDefinition: {
+            item: {
+              identifier: 'abQor0KQguiw'
             }
           }
         }
@@ -76,6 +100,22 @@ export default class PageStatistics extends Component {
         localIdentifier: 'demographicsPrimaryAttribute'
       }
     }
+    const audienceCountryAttribute = {
+      visualizationAttribute: {
+        displayForm: {
+          identifier: 'label.audiencegeoanddemographics.audiencecountry'
+        },
+        localIdentifier: 'audienceCountryAttribute'
+      }
+    }
+    const audienceStateAttribute = {
+      visualizationAttribute: {
+        displayForm: {
+          identifier: 'label.audiencegeoanddemographics.audiencestate'
+        },
+        localIdentifier: 'audienceStateAttribute'
+      }
+    }
     const dateByDayAttribute = {
       visualizationAttribute: {
         displayForm: {
@@ -83,7 +123,7 @@ export default class PageStatistics extends Component {
         },
         localIdentifier: 'dateByDayAttribute'
       }
-    };
+    }
     return (
       <div>
         Basic Page Stats
@@ -135,21 +175,35 @@ export default class PageStatistics extends Component {
           </div>
         </div>
         <div style={{ height: 300 }} >
-          <div className="column">
-            Visits Over Time
-            <LineChart
-              projectId={PROJECT_ID}
-              measures={[totalPageVisits]}
-              trendBy={dateByDayAttribute}
-              segmentBy={demographicsPrimaryAttribute}
-              config={{
-                legend: {
-                  enabled: true,
-                  position: 'bottom'
-                }
-              }}
-            />
-          </div>
+          Visits Over Time
+          <LineChart
+            projectId={PROJECT_ID}
+            measures={[totalPageVisits]}
+            trendBy={dateByDayAttribute}
+            segmentBy={demographicsPrimaryAttribute}
+            config={{
+              legend: {
+                enabled: true,
+                position: 'bottom'
+              }
+            }}
+          />
+        </div>
+        <div style={{ height: 300 }} >
+          Top 5 Countries
+          <Table
+            projectId={PROJECT_ID}
+            measures={[totalPageVisits,percVisitsByCountry]}
+            attributes={[audienceCountryAttribute]}
+          />
+        </div>
+        <div style={{ height: 300 }} >
+          Top 5 States
+          <Table
+            projectId={PROJECT_ID}
+            measures={[totalPageVisits,percVisitsByState]}
+            attributes={[audienceStateAttribute]}
+          />
         </div>
       </div>
     )
