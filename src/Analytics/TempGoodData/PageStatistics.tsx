@@ -1,129 +1,13 @@
 import * as React from 'react';
 import { Component } from 'react'
 
-import { Headline, LineChart, Table } from '@gooddata/react-components';
+import { Visualization } from '@gooddata/react-components';
 import '@gooddata/react-components/styles/css/main.css';
 
 const PROJECT_ID = 'a8ujccqht6hb5l9f8rfbag2277h4yo0o';
 
 export default class PageStatistics extends Component {
   public render() {
-    const totalPageVisits = {
-      measure: {
-        localIdentifier: 'totalPageVisits',
-        definition: {
-          measureDefinition: {
-            item: {
-              identifier: 'aazQ76XjeeSD'
-            }
-          }
-        }
-      }
-    }
-    const percVisitsByCountry = {
-      measure: {
-        localIdentifier: 'percVisitsByCountry',
-        definition: {
-          measureDefinition: {
-            item: {
-              identifier: 'ac8oLvQQeNar'
-            }
-          }
-        }
-      }
-    }
-    const percVisitsByState = {
-      measure: {
-        localIdentifier: 'percVisitsByState',
-        definition: {
-          measureDefinition: {
-            item: {
-              identifier: 'abQor0KQguiw'
-            }
-          }
-        }
-      }
-    }
-    const financialAdvisorVisits = {
-      measure: {
-        localIdentifier: 'financialAdvisorVisits',
-        definition: {
-          measureDefinition: {
-            item: {
-              identifier: 'adgnGEHSexsv'
-            }
-          }
-        }
-      }
-    }
-    const assetManagerVisits = {
-      measure: {
-        localIdentifier: 'assetManagerVisits',
-        definition: {
-          measureDefinition: {
-            item: {
-              identifier: 'adInUtIZcGVT'
-            }
-          }
-        }
-      }
-    }
-    const qualifiedIInvestorVisits = {
-      measure: {
-        localIdentifier: 'qualifiedIInvestorVisits',
-        definition: {
-          measureDefinition: {
-            item: {
-              identifier: 'ac1nUXy9cNjH'
-            }
-          }
-        }
-      }
-    }
-    const otherProfessionalVisits = {
-      measure: {
-        localIdentifier: 'otherProfessionalVisits',
-        definition: {
-          measureDefinition: {
-            item: {
-              identifier: 'aaXn1Qvdf28C'
-            }
-          }
-        }
-      }
-    }
-    const demographicsPrimaryAttribute = {
-      visualizationAttribute: {
-        displayForm: {
-          identifier: 'label.audiencegeoanddemographics.audiencedemographicsprimary'
-        },
-        localIdentifier: 'demographicsPrimaryAttribute'
-      }
-    }
-    const audienceCountryAttribute = {
-      visualizationAttribute: {
-        displayForm: {
-          identifier: 'label.audiencegeoanddemographics.audiencecountry'
-        },
-        localIdentifier: 'audienceCountryAttribute'
-      }
-    }
-    const audienceStateAttribute = {
-      visualizationAttribute: {
-        displayForm: {
-          identifier: 'label.audiencegeoanddemographics.audiencestate'
-        },
-        localIdentifier: 'audienceStateAttribute'
-      }
-    }
-    const dateByDayAttribute = {
-      visualizationAttribute: {
-        displayForm: {
-          identifier: 'date.date.mmddyyyy'
-        },
-        localIdentifier: 'dateByDayAttribute'
-      }
-    }
     return (
       <div>
         Basic Page Stats
@@ -131,7 +15,7 @@ export default class PageStatistics extends Component {
           Date Picker
         </div>
         <div className="s-headline" style={{ display: 'flex' }} >
-          <style jsx>
+          <style>
             {`
               .column {
                 flex: '1 1 50%'
@@ -140,69 +24,119 @@ export default class PageStatistics extends Component {
           </style>
           <div className="column">
             Total Page Visits
-            <Headline
+            <Visualization
               projectId={PROJECT_ID}
-              primaryMeasure={totalPageVisits}
+              identifier={'acysX8CHdYJK'}
             />
           </div>
           <div className="column">
             Financial Advisor
-            <Headline
+            <Visualization
               projectId={PROJECT_ID}
-              primaryMeasure={financialAdvisorVisits}
+              identifier={'aaJnN02Fg1f8'}
             />
           </div>
           <div className="column">
             Asset Manager
-            <Headline
+            <Visualization
               projectId={PROJECT_ID}
-              primaryMeasure={assetManagerVisits}
+              identifier={'acAn78iEhBK6'}
             />
           </div>
           <div className="column">
             Qualified Institutional Investor
-            <Headline
+            <Visualization
               projectId={PROJECT_ID}
-              primaryMeasure={qualifiedIInvestorVisits}
+              identifier={'ab8oaDPDhaC4'}
             />
           </div>
           <div className="column">
             Other Financial Professional
-            <Headline
+            <Visualization
               projectId={PROJECT_ID}
-              primaryMeasure={otherProfessionalVisits}
+              identifier={'abvog1kNcrM8'}
+            />
+          </div>
+        </div>
+        <div style={{ display: 'flex', height: 300 }} >
+          <style>
+            {`
+              .column {
+                flex: '1 1 50%'
+              }
+            `}
+          </style>
+          <div className="column">
+            <Visualization
+              projectId={PROJECT_ID}
+              identifier={'advnGIgfa2ga'}
+            />
+          </div>
+          <div className="column">
+            <Visualization
+              projectId={PROJECT_ID}
+              identifier={'aaqtnjy5a75D'}
+            />
+          </div>
+          <div className="column">
+            <Visualization
+              projectId={PROJECT_ID}
+              identifier={'aastn6qSg2Oj'}
+            />
+          </div>
+          <div className="column">
+            <Visualization
+              projectId={PROJECT_ID}
+              identifier={'aawtpiLIeyWg'}
+            />
+          </div>
+          <div className="column">
+            <Visualization
+              projectId={PROJECT_ID}
+              identifier={'abBtm4KDfnTG'}
             />
           </div>
         </div>
         <div style={{ height: 300 }} >
-          Visits Over Time
-          <LineChart
-            projectId={PROJECT_ID}
-            measures={[totalPageVisits]}
-            trendBy={dateByDayAttribute}
-            segmentBy={demographicsPrimaryAttribute}
-            config={{
-              legend: {
-                enabled: true,
-                position: 'bottom'
-              }
-            }}
-          />
-        </div>
-        <div style={{ height: 300 }} >
           Top 5 Countries
-          <Table
+          <Visualization
             projectId={PROJECT_ID}
-            measures={[totalPageVisits,percVisitsByCountry]}
-            attributes={[audienceCountryAttribute]}
+            identifier={'ac9oJNGFbfkJ'}
           />
         </div>
         <div style={{ height: 300 }} >
           Top 5 States
-          <Table
+          <Visualization
             projectId={PROJECT_ID}
-            measures={[totalPageVisits,percVisitsByState]}
-            attributes={[audienceStateAttribute]}
+            identifier={'aa8ov5bCeJsr'}
+          />
+        </div>
+        <div style={{ height: 300 }} >
+          Total Posts Published
+          <Visualization
+            projectId={PROJECT_ID}
+            identifier={'aadLx3ZEgNIg'}
+          />
+        </div>
+        <div style={{ height: 300 }} >
+          Total Impressions
+          <Visualization
+            projectId={PROJECT_ID}
+            identifier={'aaWLxsb9g2jb'}
+          />
+        </div>
+        <div style={{ height: 300 }} >
+          Total Opens
+          <Visualization
+            projectId={PROJECT_ID}
+            identifier={'aa2LyQCfeBz0'}
+          />
+        </div>
+        <div style={{ height: 300 }} >
+          Post Impressions Over Time Linechart
+          <Visualization
+            projectId={PROJECT_ID}
+            identifier={'abELxndmgDpg'}
           />
         </div>
       </div>
